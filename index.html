@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
 <style>
-:root{--bg:#080c14;--bg2:#0d1220;--bg3:#111827;--border:#1e2d45;--text:#e2e8f0;--mu:#64748b;--mu2:#475569;--ac:#818cf8;}
+:root{--bg:#080c14;--bg2:#0d1220;--bg3:#111827;--border:#1e2d45;--text:#e2e8f0;--mu:#64748b;--mu2:#475569;--ac:#f59e0b;}
 *{box-sizing:border-box;margin:0;padding:0;}
 body{background:var(--bg);color:var(--text);font-family:'Inter',system-ui,sans-serif;-webkit-font-smoothing:antialiased;}
 .pg{max-width:1320px;margin:0 auto;padding:40px 24px 80px;}
@@ -65,19 +65,29 @@ tr:hover td{background:rgba(255,255,255,0.015);}
 <div class="pg">
 
 <div class="hdr">
-  <div class="bdg">◑ Evening Session</div>
+  <div class="bdg">☀ Morning Session</div>
   <h1>US Stock <span>Dashboard</span></h1>
-  <div class="sl">MyTeam Daily Research</div>
-  <div class="ml"></div>
+  <div class="sl">2026-05-14 (Morning Session)</div>
+  <div class="ml">Data as of 11:45 ET | Watchlist: 59 stocks | Sources: yfinance + SEC EDGAR</div>
 </div>
 
-<div class="sec"><div class="st">Executive Summary</div><div class="bg"></div></div>
-<div class="sec"><div class="st">Market Signals — All Stocks</div><div class="tw"><table><thead><tr><th>Ticker</th><th>Company</th><th>Price</th><th>Signal</th><th>Entry Zone</th><th>Target</th><th>Stop Loss</th><th>Conviction</th></tr></thead><tbody></tbody></table></div></div>
+<div class="sec"><div class="st">Executive Summary</div><div class="bg"><div class="bc"><span class="bn">01</span><div class="bt"><span class="bb">CSCO STRONG BUY (9/10):</span> <span class="bx">Cisco posted a Q3 earnings beat on broad-based demand, triggering a 52-week high breakout to $101.87 on 2.12x volume with a confirmed golden cross and RSI 78.94 — the only fully three-vector-confirmed signal today; target $107–$110, stop $97.00.</span></div></div>
+<div class="bc"><span class="bn">02</span><div class="bt"><span class="bb">AMAT BUY (7/10):</span> <span class="bx">Applied Materials at $436.61 shows RSI 62.50 in the momentum continuation window and MACD histogram +2.9204 on 1.21x volume, with AI infrastructure sector tailwinds providing implied sentiment support; target $455, stop $418 — real but lacks a confirmed news catalyst (2/3 vectors).</span></div></div>
+<div class="bc"><span class="bn">03</span><div class="bt"><span class="bb">APP/PANW/MRVL AVOID:</span> <span class="bx">AppLovin confirmed bearish (-7.57% to $453.53, 29.7% below analyst consensus $644.97); PANW is in the RSI danger zone at 83.09, trading 9.7% above analyst target; MRVL is 36.5% above consensus $130.28 — risk/reward is unfavorable on all three.</span></div></div></div></div>
+<div class="sec"><div class="st">Market Signals — All Stocks</div><div class="tw"><table><thead><tr><th>Ticker</th><th>Company</th><th>Price</th><th>Signal</th><th>Entry Zone</th><th>Target</th><th>Stop Loss</th><th>Conviction</th></tr></thead><tbody><tr><td class="tk">**CSCO**</td><td class="co">Cisco Systems</td><td class="pr">$101.87</td><td><span class="sb" style="color:#00e676;background:#002a10;border:1px solid #00e67633">STRONG BUY</span></td><td class="mu">$99.50–$102.00</td><td class="mu">$107–$110</td><td class="mu">$97.00</td><td class="cv">**HIGH — 9/10**</td></tr>
+<tr><td class="tk">**AMAT**</td><td class="co">Applied Materials</td><td class="pr">$436.61</td><td><span class="sb" style="color:#4caf50;background:#001a08;border:1px solid #4caf5033">BUY</span></td><td class="mu">$430–$440</td><td class="mu">$455</td><td class="mu">$418.00</td><td class="cv">**MED-HIGH — 7/10**</td></tr>
+<tr><td class="tk">GOOGL</td><td class="co">Alphabet</td><td class="pr">$402.62</td><td><span class="sb" style="color:#ff9800;background:#1a0c00;border:1px solid #ff980033">WATCH</span></td><td class="mu">—</td><td class="mu">$427.89 (mean PT)</td><td class="mu">—</td><td class="cv">No setup — 5/10</td></tr>
+<tr><td class="tk">V</td><td class="co">Visa</td><td class="pr">$320.31</td><td><span class="sb" style="color:#ffd600;background:#1a1400;border:1px solid #ffd60033">HOLD</span></td><td class="mu">$315–$322</td><td class="mu">$360</td><td class="mu">$309.00</td><td class="cv">DEMOTED — 4/10</td></tr>
+<tr><td class="tk">MU</td><td class="co">Micron Technology</td><td class="pr">$803.63</td><td><span class="sb" style="color:#90a4ae;background:#141c22;border:1px solid #90a4ae33">CAUTION</span></td><td class="mu">—</td><td class="mu">—</td><td class="mu">—</td><td class="cv">Avoid — 3/10</td></tr>
+<tr><td class="tk">PLTR</td><td class="co">Palantir</td><td class="pr">$130.05</td><td><span class="sb" style="color:#ef5350;background:#1c0808;border:1px solid #ef535033">AVOID</span></td><td class="mu">—</td><td class="mu">—</td><td class="mu">—</td><td class="cv">Bearish — 3/10</td></tr>
+<tr><td class="tk">PANW</td><td class="co">Palo Alto Networks</td><td class="pr">$227.79</td><td><span class="sb" style="color:#ef5350;background:#1c0808;border:1px solid #ef535033">AVOID</span></td><td class="mu">—</td><td class="mu">—</td><td class="mu">—</td><td class="cv">Overbought — 2/10</td></tr>
+<tr><td class="tk">MRVL</td><td class="co">Marvell Technology</td><td class="pr">$177.95</td><td><span class="sb" style="color:#ef5350;background:#1c0808;border:1px solid #ef535033">AVOID</span></td><td class="mu">—</td><td class="mu">—</td><td class="mu">—</td><td class="cv">Overextended — 1/10</td></tr>
+<tr><td class="tk">**APP**</td><td class="co">AppLovin</td><td class="pr">$453.53</td><td><span class="sb" style="color:#ff1744;background:#2a0508;border:1px solid #ff174433">STRONG SELL</span></td><td class="mu">—</td><td class="mu">—</td><td class="mu">—</td><td class="cv">**CONFIRMED BEARISH**</td></tr></tbody></table></div></div>
 <div class="sec"><div class="st">Top Buy Setups (0)</div><div class="sg"></div></div>
 <div class="sec"><div class="st">Sell / Avoid List (0)</div><div class="sg"></div></div>
 
 <div class="ft">
-  <p>MyTeam Research &nbsp;|&nbsp; 12-Agent AI Analysis &nbsp;|&nbsp; Updated 2026-05-13 23:33 ET</p>
+  <p>MyTeam Research &nbsp;|&nbsp; 12-Agent AI Analysis &nbsp;|&nbsp; Updated 2026-05-14 12:06 ET</p>
   <p style="margin-top:8px;color:#334155;">For informational purposes only — not financial advice.</p>
 </div>
 
